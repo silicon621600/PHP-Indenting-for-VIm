@@ -419,8 +419,8 @@ let b:did_indent = 1
 "	If you are using very big PHP files (which is a bad idea) you will
 "	experience slowings down while editing, if your code contains only PHP
 "	code you can comment the line below.
-
-let g:php_sync_method = 0
+" 真好符合我现在的情况,上万行的纯PHP文件... 注掉解决语法高亮消失的问题
+" let g:php_sync_method = 0
 
 " Get the effective value of 'shiftwidth'. Vim since 7.3-703 allows a value of
 " 0, which uses the value of 'tabstop', in which case we need to use the
